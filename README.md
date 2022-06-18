@@ -2,4 +2,7 @@
 
 
 
-                                    Check out my repos ⬇️
+<p align="center"><samp>
+Check out my repos ⬇️  
+  </samp>
+</p>
