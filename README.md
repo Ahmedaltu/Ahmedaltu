@@ -1,4 +1,4 @@
-# Hello World! <img src="https://github.com/Ahmedaltu/Ahmedaltu/blob/main/wave.gif" height="80" width="80">
+# Hello   <img src="https://github.com/Ahmedaltu/Ahmedaltu/blob/main/wave.gif" height="80" width="80">
 
 
 
