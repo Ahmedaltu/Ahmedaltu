@@ -8,7 +8,18 @@
 
 
 
+<p align="center">
+  <img src=https://skyline.github.com/Ahmedaltu/2021type=waving&color=gradient&height=60&section=footer&width=100"/>
+</p>
+
+
+
 <p align="center"><samp>
 Check out my repos ⬇️  
   </samp>
 </p>
+
+
+
+
+
