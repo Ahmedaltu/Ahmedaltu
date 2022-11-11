@@ -8,7 +8,7 @@
 </p>
 
 
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/langs/?username=ahmedaltu&langs_count=5&theme=tokyonight)]()
+
 
 
 <p align="center"><samp>
