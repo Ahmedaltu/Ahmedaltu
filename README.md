@@ -8,7 +8,7 @@
 </p>
 
 
-
+Mostly Smart Iot System / Embedded Systems / AI / ML projects
 
 
 <p align="center"><samp>
