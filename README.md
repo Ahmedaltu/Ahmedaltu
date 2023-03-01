@@ -20,7 +20,7 @@ Mostly Smart Iot System / Embedded Systems / AI / ML projects
 
 <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Git" **alt="Git" width="40" height="40"/>
 
-<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
+<img src="https://github.com/Ahmedaltu/Ahmedaltu/blob/main/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 
 <br>
 
