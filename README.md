@@ -19,7 +19,7 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg"  align="left" alt="git" height='42px'/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/blob/master/icons/docker-icon.svg"  align="left" alt="git" height='42px'/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/blob/master/icons/jenkins.svg"  align="left" alt="git" height='42px'/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/blob/master/icons/robotframwork.svg"  align="left" alt="git" height='42px'/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/blob/master/icons/robotframework.svg"  align="left" alt="git" height='42px'/></a>
 <br>
 
 </a>
