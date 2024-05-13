@@ -3,7 +3,7 @@
 
 ---------------------------------------------------------------------------------------------
 
-Mostly Smart Iot System / Embedded Systems / AI / ML projects
+
 
 <br>
 
