@@ -11,8 +11,9 @@
 <a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C"><img src="https://github.com/get-icon/geticon/raw/master/icons/c.svg" align="left" alt="git" height='42px'/></a>
 <a href="https://isocpp.org/" title="C++"><img src="https://github.com/get-icon/geticon/raw/master/icons/c-plusplus.svg" align="left" alt="git" height='42px'/></a>
 <a href="https://www.java.com/" title="Java"><img src="https://github.com/get-icon/geticon/raw/master/icons/java.svg" alt="Java" width="21px" height="21px"></a>
-<a href="https://www.python.org" target="_blank"><img align="left" alt="Python" height ="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/python/python.svg"></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript"><img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg"  align="left" alt="git" height='42px'/></a>
+<a href="https://www.python.org" target="_blank"><img align="left" alt="Python" height ="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/python/python.svg"></a>
+
 
 <a href="https://code.visualstudio.com/" title="Visual Studio Code"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" align="left" alt="git" height='42px'/></a>
 <a href="https://pytorch.org/" target="_blank"> <img align="left" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/pytorch/pytorch.svg" alt="pytorch" height="42px"/> </a> 
