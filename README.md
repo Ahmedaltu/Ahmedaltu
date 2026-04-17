@@ -1,66 +1,56 @@
-# 👋 Hello! <img src="https://github.com/Ahmedaltu/Ahmedaltu/blob/main/wave.gif" height="60" width="60">
+<!-- Header -->
+<div align="center">
+  <h1>Ahmed Al-Tuwaijri</h1>
+  <p>📍 Helsinki, Finland &nbsp;·&nbsp; Aalto University &nbsp;·&nbsp; Embedded Systems & Software Engineering</p>
+  <br/>
+  <blockquote>
+    I build things that run on microcontrollers, talk over RF, and ship as production software.
+  </blockquote>
+  <br/>
+  <img src="https://img.shields.io/badge/Embedded_Systems-534AB7?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RF_&_Wireless-1D9E75?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Full--Stack-555555?style=flat-square&logoColor=white"/>
+  <img src="https://img.shields.io/badge/41+_repos-888780?style=flat-square&logoColor=white"/>
+</div>
 
 ---
 
-## 🔨 Languages & Tools
+## ⚙️ Embedded & Hardware
 
-<p align="center">
-  <!-- Programming Languages -->
-  <a href="https://en.wikipedia.org/wiki/C_(programming_language)" title="C">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/c.svg" alt="C" height="42px"/>
-  </a>
-  <a href="https://isocpp.org/" title="C++">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/c-plusplus.svg" alt="C++" height="42px"/>
-  </a>
-  <a href="https://www.java.com/" title="Java">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/java.svg" alt="Java" height="42px"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/javascript.svg" alt="JavaScript" height="42px"/>
-  </a>
-  <a href="https://www.python.org" title="Python">
-    <img src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/python/python.svg" alt="Python" height="42px"/>
-  </a>
-</p>
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-8CC84B?style=flat-square&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![ARM Cortex-M](https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=flat-square&logoColor=white)
+![Modbus RTU](https://img.shields.io/badge/Modbus_RTU-444444?style=flat-square&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 
-<p align="center">
-  <!-- Tools & Frameworks -->
-  <a href="https://code.visualstudio.com/" title="VS Code">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="VS Code" height="42px"/>
-  </a>
-  <a href="https://pytorch.org/" title="PyTorch">
-    <img src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/pytorch/pytorch.svg" alt="PyTorch" height="42px"/>
-  </a>
-  <a href="https://www.tensorflow.org" title="TensorFlow">
-    <img src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/tensorflow/tensorflow.svg" alt="TensorFlow" height="42px"/>
-  </a>
-  <a href="https://git-scm.com/" title="Git">
-    <img src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/git-scm/git-scm.svg" alt="Git" height="42px"/>
-  </a>
-  <a href="https://www.docker.com/" title="Docker">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/docker-icon.svg" alt="Docker" height="42px"/>
-  </a>
-  <a href="https://www.jenkins.io/" title="Jenkins">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/jenkins.svg" alt="Jenkins" height="42px"/>
-  </a>
-</p>
+## 📡 Wireless & RF
 
-<p align="center">
-  <!-- Databases -->
-  <a href="https://www.mongodb.com/" title="MongoDB">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/mongodb-icon.svg" alt="MongoDB" height="42px"/>
-  </a>
-  <a href="https://dev.mysql.com/" title="MySQL">
-    <img src="https://github.com/get-icon/geticon/raw/master/icons/mysql.svg" alt="MySQL" height="42px"/>
-  </a>
-</p>
+![BLE](https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white)
+![nRF52840](https://img.shields.io/badge/nRF52840-00A9CE?style=flat-square&logoColor=white)
+![RTL-SDR](https://img.shields.io/badge/RTL--SDR-1D9E75?style=flat-square&logoColor=white)
+![UWB](https://img.shields.io/badge/UWB-6B2D8B?style=flat-square&logoColor=white)
+![LRPT](https://img.shields.io/badge/LRPT-085041?style=flat-square&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-E16737?style=flat-square&logo=mathworks&logoColor=white)
+
+## 🖥️ Software
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+## 🛠️ Infra & Tools
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-555555?style=flat-square&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer&width=100"/>
-</p>
-
-<p align="center">
-  <samp>✨ Check out my repositories below ⬇️ ✨</samp>
-</p>
