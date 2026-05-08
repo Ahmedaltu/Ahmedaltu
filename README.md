@@ -1,6 +1,6 @@
 <!-- Header -->
 <div align="center">
-  <h1>Ahmed Al-Tuwaijri</h1>
+  <h1>Ahmed Al-Tuwaijari</h1>
   <p>📍 Helsinki, Finland &nbsp;·&nbsp; Aalto University &nbsp;·&nbsp; Embedded Systems & Software Engineering</p>
   <br/>
   <blockquote>
