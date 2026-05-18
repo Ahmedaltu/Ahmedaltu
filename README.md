@@ -2,8 +2,8 @@
 
 ```
 ╔═══════════════════════════════════════════════════════════════╗
-║   AHMED AL-TUWAIJARI  ·  Embedded Systems & Software Eng.    ║
-║   Aalto University  ·  Helsinki, Finland  ·  Open to Work    ║
+║   AHMED AL-TUWAIJARI  ·  Embedded Systems & Software Eng.     ║
+║   Aalto University  ·  Helsinki, Finland  ·                   ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
