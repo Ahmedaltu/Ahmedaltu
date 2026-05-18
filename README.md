@@ -90,8 +90,7 @@ Chrome extension that overlays financing cost analysis on Nettiauto listings —
 
 ```
 programming-parallel-computers/   ← CS-E4580 @ Aalto (SIMD, OpenMP, cache opt.)
-software-design-modelling/        ← CS-E4920 Portfolio module
-5g-digital-twin-simulator/        ← Python 5G network digital twin
+
 ```
 
 ---
@@ -112,24 +111,11 @@ software-design-modelling/        ← CS-E4920 Portfolio module
 
 | Degree | Institution | Year |
 |--------|-------------|------|
-| M.Sc. Embedded Systems & Software Engineering | **Aalto University** | 2024 – present |
+| M.Sc. Software & service Engineering | **Aalto University** | 2024 – present |
 | B.Eng. Information Technology (Smart IoT Systems) | **Metropolia UAS** | 2024 |
 
 **Thesis:** *5G Network Deployment* — Nokia-deployed 5G NR network analysis covering RAN architecture, coverage planning, and performance benchmarking.
 
 ---
 
-## Experience
 
-**Nokia — Cloud Infrastructure Trainee**
-Cloud infra testing, CI/CD pipeline development, DevOps tooling. Worked with Jenkins, Docker, and internal test automation frameworks.
-
----
-
-<div align="center">
-
-*"Build things that matter. Ship things that work. Contribute things that last."*
-
-**Helsinki, Finland · Open to internships & graduate roles in embedded, wireless, and cloud-native engineering**
-
-</div>
