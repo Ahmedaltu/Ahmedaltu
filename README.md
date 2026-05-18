@@ -51,18 +51,6 @@ GCP  ·  Oracle Cloud  ·  WireGuard  ·  CI/CD  ·  Jenkins
 
 ---
 
-## Open Source Contributions
-
-> *I contribute upstream, not just downstream.*
-
-| Project | Contribution | Status |
-|---------|-------------|--------|
-| **[istio/istio.io](https://github.com/istio/istio.io)** | Documentation fixes — PRs #17329, #17330, #17335 | ✅ Merged |
-| **[metal3-io/metal3-dev-env](https://github.com/metal3-io/metal3-dev-env)** | Bug fix PR for issue #1667 | ✅ Merged |
-| **[canonical/cloud-init](https://github.com/canonical/cloud-init)** | Python type annotation fixes | ✅ Merged |
-| **[canonical/testflinger](https://github.com/canonical/testflinger)** | mypy type fixes in `auth.py` — PR #1030 | ✅ Merged |
-
----
 
 ## Featured Projects
 
@@ -92,9 +80,6 @@ nRF52840-based indoor distance measurement using Bluetooth Low Energy RSSI. Zeph
 
 ### ⬛ [Green House FreeRTOS](https://github.com/Ahmedaltu/Green_House_FreeRTOS)
 Industrial greenhouse CO₂ controller on LPC1549 (ARM Cortex-M3). FreeRTOS task scheduling, Vaisala GMP252/HMP60 sensors, Modbus RTU, ESP8266 WiFi/MQTT bridge, and 16×2 LCD UI.
-
-### 🔵 [TrackLight — UWB Spotlight](https://github.com/Ahmedaltu/TrackLight) `C++`
-ESP32-based automotive spotlight that tracks a user using UWB positioning. Real-time angle-of-arrival estimation driving servo-controlled beam steering.
 
 ### 🟢 [Nettiauto Financing Analyser](https://github.com/Ahmedaltu/Nettiauto-Financing-Analyser) `JavaScript`
 Chrome extension that overlays financing cost analysis on Nettiauto listings — calculates total cost of ownership, monthly payment breakdown, and interest burden.
