@@ -93,20 +93,6 @@ programming-parallel-computers/   ← CS-E4580 @ Aalto (SIMD, OpenMP, cache opt.
 
 ```
 
----
-
-## GitHub Stats
-
-<div align="center">
-
-![Ahmed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Ahmedaltu&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Ahmedaltu&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-</div>
-
----
-
 ## Education
 
 | Degree | Institution | Year |
