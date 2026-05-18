@@ -90,6 +90,7 @@ Chrome extension that overlays financing cost analysis on Nettiauto listings —
 
 ```
 programming-parallel-computers/   ← CS-E4580 @ Aalto (SIMD, OpenMP, cache opt.)
+thinbox                           ← A lightweight Linux container runtime written in Go
 
 ```
 
