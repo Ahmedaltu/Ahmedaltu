@@ -17,9 +17,8 @@
 
 ## About
 
-Master's student at **Aalto University** (Embedded Systems & Software Engineering) with a B.Eng. in Smart IoT Systems from Metropolia. Previously a Nokia trainee — cloud infra testing, CI/CD, DevOps. I build things that sit close to hardware and scale toward the cloud: from bare-metal ARM firmware to Kubernetes operators to 5G link simulators.
+Master's student at **Aalto University** (Software Engineering) with a B.Eng. in Smart IoT Systems from Metropolia. Previously a Nokia trainee — cloud infra testing, CI/CD, DevOps. I build things that sit close to hardware and scale toward the cloud: from bare-metal ARM firmware to Kubernetes operators to 5G link simulators.
 
-I contribute to open source projects I actually use — Istio, Metal3, cloud-init, Testflinger — and ship side projects that solve real problems.
 
 ---
 
