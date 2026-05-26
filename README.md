@@ -44,7 +44,6 @@ I build across the full stack — from bare-metal embedded systems and 5G physic
 
 **Canonical / cloud-init** — type annotation fixes merged · docs PR [#6891](https://github.com/canonical/cloud-init/pull/6891) open
 
-**Metal3** (`metal3-io/metal3-dev-env`) — Issue [#1667](https://github.com/metal3-io/metal3-dev-env/issues/1667) (libvirt-python missing in ansible venv) + fix PR
 
 ---
 
