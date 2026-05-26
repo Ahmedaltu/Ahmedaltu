@@ -7,7 +7,7 @@
 Systems · 5G & Wireless · Cloud Infrastructure · Open Source
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmed--al--tuwaijari-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-al-tuwaijari)
-[![Email](https://img.shields.io/badge/Email-ahmed.altuwaijari%40outlook.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ahmed.al-tuwaijari@outlook.com)
+[![Email](https://img.shields.io/badge/Email-ahmed.al-tuwaijari%40outlook.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ahmed.al-tuwaijari@outlook.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Ahmedaltu-181717?style=flat-square&logo=github)](https://github.com/Ahmedaltu)
 
 </div>
