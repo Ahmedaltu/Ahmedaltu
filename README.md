@@ -33,19 +33,7 @@ I build across the full stack — from bare-metal embedded systems and 5G physic
 
 ---
 
-## Open Source Contributions
 
-**Istio** (`istio/istio.io`)
-- PR [#17329](https://github.com/istio/istio.io/pull/17329) — IST0173 warning note · **merged**
-- PR [#17330](https://github.com/istio/istio.io/pull/17330) — ztunnel Grafana dashboard into `istio:master` · **merged**
-- PR [#17335](https://github.com/istio/istio.io/pull/17335) — SAN extension + browser notice for secure ingress · open
-
-**Canonical / Testflinger** — PR [#1030](https://github.com/canonical/testflinger/pull/1030): mypy type fixes in `auth.py` · **merged into `canonical:main`**
-
-**Canonical / cloud-init** — type annotation fixes merged · docs PR [#6891](https://github.com/canonical/cloud-init/pull/6891) open
-
-
----
 
 ## 5G & Signal Processing
 
