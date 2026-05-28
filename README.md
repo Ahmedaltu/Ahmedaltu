@@ -12,13 +12,7 @@ Systems · 5G & Wireless · Cloud Infrastructure · Open Source
 
 </div>
 
----
 
-## About
-
-I build across the full stack — from bare-metal embedded systems and 5G physical layer to cloud infrastructure, container runtimes, and SaaS products. Currently an M.Sc. student at Aalto University and active open source contributor to **Istio**, **cloud-init**, and **Testflinger (Canonical)**. Previously a 5G Cloud BTS Trainee at **Nokia Espoo** working on OCP/vDU/vCU packet upgrades and Cloud RAN validation.
-
----
 
 ## Featured Projects
 
