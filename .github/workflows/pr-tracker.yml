@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch PRs and update README
+      - name: Fetch open PRs and update README
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -33,17 +33,17 @@ jobs:
               with urllib.request.urlopen(req) as r:
                   return json.loads(r.read())
 
-          STATUS_EMOJI = {
-              "approved":           "✅ approved",
-              "changes_requested":  "🔴 changes requested",
-              "pending":            "🟡 pending review",
-          }
-          STATE_EMOJI = {
-              "open":   "🟢 open",
-              "closed": "⚫ closed",
+          def badge(label, color):
+              label_enc = label.replace(" ", "_").replace("-", "--")
+              return f"![{label}](https://img.shields.io/badge/{label_enc}-{color}?style=for-the-badge)"
+
+          REVIEW_BADGE = {
+              "approved":          badge("approved",          "brightgreen"),
+              "changes_requested": badge("changes_requested", "red"),
+              "pending":           badge("pending_review",    "yellow"),
           }
 
-          query = "is:pr+author:Ahmedaltu+repo:metal3-io/metal3-dev-env+repo:canonical/cloud-init+repo:istio/istio.io"
+          query = "is:pr+is:open+author:Ahmedaltu+repo:metal3-io/metal3-dev-env+repo:canonical/cloud-init+repo:istio/istio.io"
           items = gh(f"https://api.github.com/search/issues?q={query}&per_page=50")["items"]
 
           rows = []
@@ -67,24 +67,22 @@ jobs:
                   pass
 
               updated = item["updated_at"][:10]
-              state_label = STATE_EMOJI.get(item["state"], item["state"])
-              review_label = STATUS_EMOJI.get(review_status, review_status)
-              rows.append(f"| `{owner}/{repo}` | [{item['title']}]({item['html_url']}) | {state_label} | {review_label} | {updated} |")
+              review_b = REVIEW_BADGE.get(review_status, review_status)
+              rows.append(f"| `{owner}/{repo}` | [{item['title']}]({item['html_url']}) | {review_b} | {updated} |")
 
           now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-          open_count = sum(1 for i in items if i["state"] == "open")
           total = len(rows)
 
           if rows:
               table = "\n".join([
-                  f"> 🔄 Last updated: **{now}** &nbsp;·&nbsp; {open_count} open / {total} total",
+                  f"> 🔄 **{now}** &nbsp;·&nbsp; {total} open PR(s)",
                   "",
-                  "| Repo | PR | State | Review | Updated |",
-                  "|---|---|---|---|---|",
+                  "| Repo | PR | Review | Updated |",
+                  "|---|---|:---:|---|",
                   *rows,
               ])
           else:
-              table = f"> 🔄 Last updated: **{now}**\n\n_No matching PRs found._"
+              table = f"> 🔄 **{now}**\n\n_No open PRs found._"
 
           readme_path = "README.md"
           with open(readme_path) as f:
@@ -101,7 +99,7 @@ jobs:
           with open(readme_path, "w") as f:
               f.write(updated_content)
 
-          print(f"Updated README with {total} PR(s) ({open_count} open).")
+          print(f"Updated README with {total} open PR(s).")
           PYEOF
 
       - name: Commit and push if changed
@@ -111,5 +109,6 @@ jobs:
           git diff --quiet README.md || (
             git add README.md &&
             git commit -m "chore: update PR tracker [skip ci]" &&
+            git pull --rebase &&
             git push
           )
