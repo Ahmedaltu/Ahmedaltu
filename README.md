@@ -53,6 +53,14 @@ Systems · 5G & Wireless · Cloud Infrastructure · Open Source
 
 ---
 
+## 🔍 Open Source Contributions
+
+<!-- PR-TRACKER:START -->
+_Updated automatically every 6 hours by GitHub Actions._
+<!-- PR-TRACKER:END -->
+
+---
+
 <div align="center">
 <sub>ahmed.altuwaijari@outlook.com · +358 41 319 1312 · linkedin.com/in/ahmed-al-tuwaijari</sub>
 </div>
