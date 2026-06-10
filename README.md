@@ -56,15 +56,11 @@ Systems · 5G & Wireless · Cloud Infrastructure · Open Source
 ## 🔍 Open Source Contributions
 
 <!-- PR-TRACKER:START -->
-| Repo | PR | Status | Updated |
-|---|---|---|---|
-| `metal3-io/metal3-dev-env` | [fix: remove conflicting Docker apt source files before adding repo](https://github.com/metal3-io/metal3-dev-env/pull/1690) | open · pending | 2026-06-10 |
-| `canonical/cloud-init` | [docs: document per-frequency shell script MIME types](https://github.com/canonical/cloud-init/pull/6891) | open · changes_requested | 2026-06-10 |
-| `canonical/cloud-init` | [chore: add typing to cloudinit.distros.parsers hostname and resolv_conf](https://github.com/canonical/cloud-init/pull/6848) | closed · changes_requested | 2026-05-13 |
-| `metal3-io/metal3-dev-env` | [fix: add libvirt-python to ansible venv pip install](https://github.com/metal3-io/metal3-dev-env/pull/1669) | closed · pending | 2026-04-23 |
-| `istio/istio.io` | [docs: add SAN extension to secure ingress certificate generation commands](https://github.com/istio/istio.io/pull/17335) | closed · approved | 2026-05-11 |
-| `istio/istio.io` | [docs: add missing ztunnel Grafana dashboard to integrations page](https://github.com/istio/istio.io/pull/17330) | closed · approved | 2026-05-06 |
-| `istio/istio.io` | [docs: add note about expected IST0173 warnings when applying Bookinfo destination rules](https://github.com/istio/istio.io/pull/17329) | open · pending | 2026-04-28 |
+> 🔄 Last updated: **—** &nbsp;·&nbsp; auto-refreshes every 6 hours
+
+| Repo | PR | State | Review | Updated |
+|---|---|---|---|---|
+| — | — | — | — | — |
 <!-- PR-TRACKER:END -->
 
 ---

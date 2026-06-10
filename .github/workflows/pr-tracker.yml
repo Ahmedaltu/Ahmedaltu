@@ -20,6 +20,7 @@ jobs:
         run: |
           python3 - <<'PYEOF'
           import json, os, re, urllib.request
+          from datetime import datetime, timezone
 
           token = os.environ["GITHUB_TOKEN"]
 
@@ -31,6 +32,16 @@ jobs:
               })
               with urllib.request.urlopen(req) as r:
                   return json.loads(r.read())
+
+          STATUS_EMOJI = {
+              "approved":           "✅ approved",
+              "changes_requested":  "🔴 changes requested",
+              "pending":            "🟡 pending review",
+          }
+          STATE_EMOJI = {
+              "open":   "🟢 open",
+              "closed": "⚫ closed",
+          }
 
           query = "is:pr+author:Ahmedaltu+repo:metal3-io/metal3-dev-env+repo:canonical/cloud-init+repo:istio/istio.io"
           items = gh(f"https://api.github.com/search/issues?q={query}&per_page=50")["items"]
@@ -56,13 +67,24 @@ jobs:
                   pass
 
               updated = item["updated_at"][:10]
-              rows.append(f"| `{owner}/{repo}` | [{item['title']}]({item['html_url']}) | {item['state']} · {review_status} | {updated} |")
+              state_label = STATE_EMOJI.get(item["state"], item["state"])
+              review_label = STATUS_EMOJI.get(review_status, review_status)
+              rows.append(f"| `{owner}/{repo}` | [{item['title']}]({item['html_url']}) | {state_label} | {review_label} | {updated} |")
 
-          table = "\n".join([
-              "| Repo | PR | Status | Updated |",
-              "|---|---|---|---|",
-              *rows,
-          ]) if rows else "_No matching PRs found._"
+          now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+          open_count = sum(1 for i in items if i["state"] == "open")
+          total = len(rows)
+
+          if rows:
+              table = "\n".join([
+                  f"> 🔄 Last updated: **{now}** &nbsp;·&nbsp; {open_count} open / {total} total",
+                  "",
+                  "| Repo | PR | State | Review | Updated |",
+                  "|---|---|---|---|---|",
+                  *rows,
+              ])
+          else:
+              table = f"> 🔄 Last updated: **{now}**\n\n_No matching PRs found._"
 
           readme_path = "README.md"
           with open(readme_path) as f:
@@ -79,7 +101,7 @@ jobs:
           with open(readme_path, "w") as f:
               f.write(updated_content)
 
-          print(f"Updated README with {len(rows)} PR(s).")
+          print(f"Updated README with {total} PR(s) ({open_count} open).")
           PYEOF
 
       - name: Commit and push if changed
