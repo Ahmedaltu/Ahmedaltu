@@ -53,20 +53,6 @@ Systems · 5G & Wireless · Cloud Infrastructure · Open Source
 
 ---
 
-## 🔍 Open Source Contributions
-
-<!-- PR-TRACKER:START -->
-> 🔄 **2026-06-11 07:44 UTC** &nbsp;·&nbsp; 3 open PR(s)
-
-| Repo | PR | Review | Updated |
-|---|---|:---:|---|
-| `metal3-io/metal3-dev-env` | [fix: remove conflicting Docker apt source files before adding repo](https://github.com/metal3-io/metal3-dev-env/pull/1690) | ![pending_review](https://img.shields.io/badge/pending_review-yellow?style=for-the-badge) | 2026-06-10 |
-| `canonical/cloud-init` | [docs: document per-frequency shell script MIME types](https://github.com/canonical/cloud-init/pull/6891) | ![changes_requested](https://img.shields.io/badge/changes_requested-red?style=for-the-badge) | 2026-06-10 |
-| `istio/istio.io` | [docs: add note about expected IST0173 warnings when applying Bookinfo destination rules](https://github.com/istio/istio.io/pull/17329) | ![pending_review](https://img.shields.io/badge/pending_review-yellow?style=for-the-badge) | 2026-04-28 |
-<!-- PR-TRACKER:END -->
-
----
-
 <div align="center">
 <sub>ahmed.altuwaijari@outlook.com · +358 41 319 1312 · linkedin.com/in/ahmed-al-tuwaijari</sub>
 </div>
