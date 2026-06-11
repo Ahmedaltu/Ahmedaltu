@@ -1,0 +1,114 @@
+name: PR Tracker
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  push:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch open PRs and update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PYEOF'
+          import json, os, re, urllib.request
+          from datetime import datetime, timezone
+
+          token = os.environ["GITHUB_TOKEN"]
+
+          def gh(url):
+              req = urllib.request.Request(url, headers={
+                  "Authorization": f"Bearer {token}",
+                  "Accept": "application/vnd.github+json",
+                  "X-GitHub-Api-Version": "2022-11-28",
+              })
+              with urllib.request.urlopen(req) as r:
+                  return json.loads(r.read())
+
+          def badge(label, color):
+              label_enc = label.replace(" ", "_").replace("-", "--")
+              return f"![{label}](https://img.shields.io/badge/{label_enc}-{color}?style=for-the-badge)"
+
+          REVIEW_BADGE = {
+              "approved":          badge("approved",          "brightgreen"),
+              "changes_requested": badge("changes_requested", "red"),
+              "pending":           badge("pending_review",    "yellow"),
+          }
+
+          query = "is:pr+is:open+author:Ahmedaltu+repo:metal3-io/metal3-dev-env+repo:canonical/cloud-init+repo:istio/istio.io"
+          items = gh(f"https://api.github.com/search/issues?q={query}&per_page=50")["items"]
+
+          rows = []
+          for item in items:
+              parts = item["repository_url"].split("/")
+              owner, repo = parts[-2], parts[-1]
+
+              review_status = "pending"
+              try:
+                  reviews = gh(f"https://api.github.com/repos/{owner}/{repo}/pulls/{item['number']}/reviews")
+                  latest = {}
+                  for r in reviews:
+                      if r["state"] not in ("COMMENTED", "DISMISSED"):
+                          latest[r["user"]["login"]] = r["state"]
+                  states = list(latest.values())
+                  if "CHANGES_REQUESTED" in states:
+                      review_status = "changes_requested"
+                  elif states and all(s == "APPROVED" for s in states):
+                      review_status = "approved"
+              except Exception:
+                  pass
+
+              updated = item["updated_at"][:10]
+              review_b = REVIEW_BADGE.get(review_status, review_status)
+              rows.append(f"| `{owner}/{repo}` | [{item['title']}]({item['html_url']}) | {review_b} | {updated} |")
+
+          now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+          total = len(rows)
+
+          if rows:
+              table = "\n".join([
+                  f"> 🔄 **{now}** &nbsp;·&nbsp; {total} open PR(s)",
+                  "",
+                  "| Repo | PR | Review | Updated |",
+                  "|---|---|:---:|---|",
+                  *rows,
+              ])
+          else:
+              table = f"> 🔄 **{now}**\n\n_No open PRs found._"
+
+          readme_path = "README.md"
+          with open(readme_path) as f:
+              content = f.read()
+
+          new_block = f"<!-- PR-TRACKER:START -->\n{table}\n<!-- PR-TRACKER:END -->"
+          updated_content = re.sub(
+              r"<!-- PR-TRACKER:START -->.*?<!-- PR-TRACKER:END -->",
+              new_block,
+              content,
+              flags=re.DOTALL,
+          )
+
+          with open(readme_path, "w") as f:
+              f.write(updated_content)
+
+          print(f"Updated README with {total} open PR(s).")
+          PYEOF
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet README.md || (
+            git add README.md &&
+            git commit -m "chore: update PR tracker [skip ci]" &&
+            git pull --rebase &&
+            git push
+          )
