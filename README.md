@@ -15,7 +15,7 @@ M.Sc. Software & Service Engineering @ Aalto University.
 
 ### 🌱 Open source contributions
 
-istio/istio](https://github.com/istio/istio) · [canonical/testflinger](https://github.com/canonical/testflinger) · [canonical/cloud-init](https://github.com/canonical/cloud-init) · [metal3-io/metal3-docs](https://github.com/metal3-io/metal3-docs)
+[istio/istio](https://github.com/istio/istio) · [canonical/testflinger](https://github.com/canonical/testflinger) · [canonical/cloud-init](https://github.com/canonical/cloud-init) · [metal3-io/metal3-docs](https://github.com/metal3-io/metal3-docs)
 
 ---
 
