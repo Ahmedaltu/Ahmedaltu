@@ -49,4 +49,3 @@ M.Sc. Software & Service Engineering @ Aalto University.
 
 ---
 
-<sub>📍 Espoo, Finland · +358 41 319 1312</sub>
