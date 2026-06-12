@@ -1,58 +1,59 @@
-<div align="center">
+# Hi, I'm Ahmed 👋
 
-# Ahmed Al-Tuwaijari
+**Cloud & Backend Engineer · Espoo, Finland**
 
-**M.Sc. Computer, Communication and Information Sciences — Aalto University, Finland**
+M.Sc. Software & Service Engineering @ Aalto University · Former 5G Cloud BTS Trainee @ Nokia
 
-Systems · 5G & Wireless · Cloud Infrastructure · Open Source
+---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ahmed--al--tuwaijari-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-al-tuwaijari)
-[![Email](https://img.shields.io/badge/Email-ahmed.al-tuwaijari%40outlook.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ahmed.al-tuwaijari@outlook.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Ahmedaltu-181717?style=flat-square&logo=github)](https://github.com/Ahmedaltu)
+### 🔭 What I'm working on
 
-</div>
+- **[Finiq Solutions Oy](https://github.com/Ahmedaltu)** — Finnish-Iraqi technology & education bridge company
+- **Master's thesis** — *"Local, Hybrid, or Cloud? Deployment Architecture Tradeoffs in AI Voice Agents"*
+- **[asterisk-voip-lab](https://github.com/Ahmedaltu/asterisk-voip-lab)** — Asterisk + Kamailio + AVA AI engine on Oracle Cloud
+- **[go-ci](https://github.com/Ahmedaltu/go-ci)** — CI/CD learning showcase in Go
 
+---
 
+### 🌱 Open source contributions
 
-## Featured Projects
-
-| Project | Description | Stack |
+| Project | Status | Description |
 |---|---|---|
-| [**thinbox**](https://github.com/Ahmedaltu/thinbox) | Lightweight Linux container runtime — namespaces, cgroup v2, `pivot_root`. No Docker/containerd. | Go |
-| [**crc5g**](https://github.com/Ahmedaltu/crc5g) | CRC-24 for 5G NR (3GPP TS 38.212) — naive vs LUT-optimised, GTest suite, throughput benchmark, CI | C/C++ |
-| [**cloudinit-aigen**](https://github.com/Ahmedaltu/cloudinit-aigen) | AI CLI generating cloud-init user-data YAML from natural language via ReAct loop (Ollama + Claude) | Python |
-| [**github-mcp-connector**](https://github.com/Ahmedaltu/github-mcp-connector) | Remote MCP server for Claude.ai with GitHub OAuth — conversational repo/PR/issue browsing | JavaScript |
-| [**ubuntu-cloud-lab**](https://github.com/Ahmedaltu/ubuntu-cloud-lab) | GCP Ubuntu 24.04 lab: netcheck CLI, dpkg packaging, cloud-init automation, systemd service | Python · Shell |
-| [**Green_House_FreeRTOS**](https://github.com/Ahmedaltu/Green_House_FreeRTOS) | CO₂ greenhouse controller on LPC1549 — FreeRTOS, Modbus RTU, Vaisala GMP252/HMP60, MQTT | C · Embedded |
+| [istio/istio](https://github.com/istio/istio) | ✅ Merged (×2) | IST0173 warning note · ztunnel Grafana dashboard |
+| [canonical/testflinger](https://github.com/canonical/testflinger) | ✅ Merged | mypy type fixes in auth.py |
+| [canonical/cloud-init](https://github.com/canonical/cloud-init) | 🔄 In review | Type annotation fixes · per-frequency MIME types docs |
+| [metal3-io/metal3-docs](https://github.com/metal3-io/metal3-docs) | 🔄 In review | Docker apt source DEB822 modernization |
 
 ---
 
+### 🛠 Skills
 
-
-## 5G & Signal Processing
-
-| Project | Description |
-|---|---|
-| [**crc5g**](https://github.com/Ahmedaltu/crc5g) | CRC-24 for 5G NR (3GPP TS 38.212) in C |
-| [**5g-nr-pdsch-simulator**](https://github.com/Ahmedaltu/5g-nr-pdsch-simulator) | MATLAB 5G NR PDSCH physical layer simulator |
-| [**5g-digital-twin-simulator**](https://github.com/Ahmedaltu/5g-digital-twin-simulator) | Python 5G network digital twin |
-| [**wireless-signal-processing-matlab**](https://github.com/Ahmedaltu/wireless-signal-processing-matlab) | MATLAB wireless signal processing |
-| [**ml-wireless-localization-channel-charting**](https://github.com/Ahmedaltu/ml-wireless-localization-channel-charting) | ML-based wireless localization via channel charting |
-
----
-
-## Skills
-
-| Area | Technologies |
-|---|---|
-| **Languages** | Python · C/C++ · Go · Bash · MATLAB · JavaScript |
-| **Systems** | Linux · FreeRTOS · ARM Cortex-M · Linux namespaces · cgroup v2 · CUDA · AVX-512 · OpenMP |
-| **Cloud / Infra** | GCP · Docker · Kubernetes · Istio · Metal3 · cloud-init · Jenkins · GitLab CI · OCP/ACM |
-| **5G / Wireless** | 3GPP NR · OCP vDU/vCU · Cloud RAN · PDSCH · CRC-24 · Modbus RTU · BLE/nRF |
-| **Tools** | Nsight Compute · GTest · Stripe · Shopify APIs · Railway · Netlify · Cloudflare Pages |
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![C/C++](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Nokia 5G](https://img.shields.io/badge/Nokia%205G%20Cloud%20RAN-124191?style=flat)
 
 ---
 
-<div align="center">
-<sub>ahmed.altuwaijari@outlook.com · +358 41 319 1312 · linkedin.com/in/ahmed-al-tuwaijari</sub>
-</div>
+### 📌 Featured projects
+
+- **[thinbox](https://github.com/Ahmedaltu/thinbox)** — Minimal container runtime in Go (Linux namespaces, cgroup v2, pivot_root)
+- **[ubuntu-cloud-lab](https://github.com/Ahmedaltu/ubuntu-cloud-lab)** — GCP Ubuntu 24.04 lab with cloud-init, systemd, dpkg packaging
+- **[wireguard-vpn-lab](https://github.com/Ahmedaltu/wireguard-vpn-lab)** — WireGuard VPN on Oracle Cloud (Frankfurt)
+- **[go-ci](https://github.com/Ahmedaltu/go-ci)** — Go port scanner CLI with iterative CI/CD pipeline
+
+---
+
+### 📫 Get in touch
+
+[![Email](https://img.shields.io/badge/ahmed.altuwaijari@outlook.com-0078D4?style=flat&logo=microsoftoutlook&logoColor=white)](mailto:ahmed.altuwaijari@outlook.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmed-al-tuwaijari)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Ahmedaltu)
+
+---
+
+<sub>📍 Espoo, Finland · +358 41 319 1312</sub>
