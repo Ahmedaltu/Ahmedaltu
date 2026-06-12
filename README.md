@@ -8,10 +8,10 @@ M.Sc. Software & Service Engineering @ Aalto University · Former 5G Cloud BTS T
 
 ### 🔭 What I'm working on
 
-- **[Finiq Solutions Oy](https://github.com/Ahmedaltu)** — Finnish-Iraqi technology & education bridge company
-- **Master's thesis** — *"Local, Hybrid, or Cloud? Deployment Architecture Tradeoffs in AI Voice Agents"*
+- **[thinbox](https://github.com/Ahmedaltu/thinbox)** — Minimal container runtime in Go (Linux namespaces, cgroup v2, pivot_root)
 - **[asterisk-voip-lab](https://github.com/Ahmedaltu/asterisk-voip-lab)** — Asterisk + Kamailio + AVA AI engine on Oracle Cloud
 - **[go-ci](https://github.com/Ahmedaltu/go-ci)** — CI/CD learning showcase in Go
+- 📚 Studying **Programming Parallel Computers** (CUDA, AVX-512, OpenMP) @ Aalto University
 
 ---
 
