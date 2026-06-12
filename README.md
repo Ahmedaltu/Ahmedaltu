@@ -1,8 +1,6 @@
 # Hi, I'm Ahmed 👋
 
-**Cloud & Backend Engineer · Espoo, Finland**
-
-M.Sc. Software & Service Engineering @ Aalto University · Former 5G Cloud BTS Trainee @ Nokia
+M.Sc. Software & Service Engineering @ Aalto University.
 
 ---
 
@@ -17,12 +15,7 @@ M.Sc. Software & Service Engineering @ Aalto University · Former 5G Cloud BTS T
 
 ### 🌱 Open source contributions
 
-| Project | Status | Description |
-|---|---|---|
-| [istio/istio](https://github.com/istio/istio) | ✅ Merged (×2) | IST0173 warning note · ztunnel Grafana dashboard |
-| [canonical/testflinger](https://github.com/canonical/testflinger) | ✅ Merged | mypy type fixes in auth.py |
-| [canonical/cloud-init](https://github.com/canonical/cloud-init) | 🔄 In review | Type annotation fixes · per-frequency MIME types docs |
-| [metal3-io/metal3-docs](https://github.com/metal3-io/metal3-docs) | 🔄 In review | Docker apt source DEB822 modernization |
+istio/istio](https://github.com/istio/istio) · [canonical/testflinger](https://github.com/canonical/testflinger) · [canonical/cloud-init](https://github.com/canonical/cloud-init) · [metal3-io/metal3-docs](https://github.com/metal3-io/metal3-docs)
 
 ---
 
