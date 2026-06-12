@@ -9,14 +9,15 @@ M.Sc. Software & Service Engineering @ Aalto University.
 - **[thinbox](https://github.com/Ahmedaltu/thinbox)** — Minimal container runtime in Go (Linux namespaces, cgroup v2, pivot_root)
 - **[asterisk-voip-lab](https://github.com/Ahmedaltu/asterisk-voip-lab)** — Asterisk + Kamailio + AVA AI engine on Oracle Cloud
 - **[go-ci](https://github.com/Ahmedaltu/go-ci)** — CI/CD learning showcase in Go
-- 📚 Studying **Programming Parallel Computers** (CUDA, AVX-512, OpenMP) @ Aalto University
+- 📚 Studying **Programming Parallel Computers** (CUDA, AVX-512, OpenMP) 
 
 ---
 
 ### 🌱 Open source contributions
 
-[istio/istio](https://github.com/istio/istio) · [canonical/testflinger](https://github.com/canonical/testflinger) · [canonical/cloud-init](https://github.com/canonical/cloud-init) · [metal3-io/metal3-docs](https://github.com/metal3-io/metal3-docs)
-
+[![Istio](https://img.shields.io/badge/@istio-informational?style=flat&logo=istio&logoColor=white&color=466BB0)](https://github.com/istio/istio)
+[![Canonical](https://img.shields.io/badge/@canonical-informational?style=flat&logo=canonical&logoColor=white&color=E95420)](https://github.com/canonical)
+[![Metal3](https://img.shields.io/badge/@metal3--io-informational?style=flat&logo=cncf&logoColor=white&color=00A3E0)](https://github.com/metal3-io)
 ---
 
 ### 🛠 Skills
