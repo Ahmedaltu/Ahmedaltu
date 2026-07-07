@@ -2,7 +2,7 @@
 
 M.Sc. Software & Service Engineering @ Aalto University.
 
-[![CNCF Contributor Card](https://contribcard.cncf.io/Ahmedaltu)](https://contribcard.cncf.io/Ahmedaltu)
+[CNCF Contributor Card](https://contribcard.cncf.io/Ahmedaltu)
 
 ---
 
