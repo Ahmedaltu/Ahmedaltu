@@ -38,7 +38,6 @@ M.Sc. Software & Service Engineering @ Aalto University.
 ### 📌 Featured projects
 
 - **[thinbox](https://github.com/Ahmedaltu/thinbox)** — Minimal container runtime in Go (Linux namespaces, cgroup v2, pivot_root)
-- **[ubuntu-cloud-lab](https://github.com/Ahmedaltu/ubuntu-cloud-lab)** — GCP Ubuntu 24.04 lab with cloud-init, systemd, dpkg packaging
 - **[wireguard-vpn-lab](https://github.com/Ahmedaltu/wireguard-vpn-lab)** — WireGuard VPN on Oracle Cloud (Frankfurt)
 - **[go-ci](https://github.com/Ahmedaltu/go-ci)** — Go port scanner CLI with iterative CI/CD pipeline
 
