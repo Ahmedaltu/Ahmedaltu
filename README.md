@@ -31,15 +31,7 @@ M.Sc. Software & Service Engineering @ Aalto University.
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![Nokia 5G](https://img.shields.io/badge/Nokia%205G%20Cloud%20RAN-124191?style=flat)
 
----
 
-### 📌 Featured projects
-
-- **[thinbox](https://github.com/Ahmedaltu/thinbox)** — Minimal container runtime in Go (Linux namespaces, cgroup v2, pivot_root)
-- **[wireguard-vpn-lab](https://github.com/Ahmedaltu/wireguard-vpn-lab)** — WireGuard VPN on Oracle Cloud (Frankfurt)
-- **[go-ci](https://github.com/Ahmedaltu/go-ci)** — Go port scanner CLI with iterative CI/CD pipeline
-
----
 
 ### 📫 Get in touch
 
